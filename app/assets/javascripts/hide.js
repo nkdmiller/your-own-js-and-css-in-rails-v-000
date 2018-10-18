@@ -1,3 +1,3 @@
 function hideWhenClicked() {
-  let target = ${event.target
+  let target = $(event.target)
 }

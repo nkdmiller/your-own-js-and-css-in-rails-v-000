@@ -5,7 +5,6 @@ feature "Hide Link", :js => true do
     visit '/'
     click_link 'Click To Hide Me'
     byebug
-    
     expect(page).not_to have_content 'Click To Hide Me'
   end
 end
